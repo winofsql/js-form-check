@@ -1,4 +1,4 @@
-<?php 
+<?php
 $view_head_height = 190;
 
 ?>
@@ -31,8 +31,8 @@ function check() {
 </script>
 </head>
 <body>
-<h1 class="alert alert-primary"><a href=".">Form 入力文字数チェック</a></h1>
 <div id="main">
+<h1 class="alert alert-primary"><a href=".">Form 入力文字数チェック</a></h1>
 <form
   method="post"
   target="myframe"
@@ -49,7 +49,7 @@ function check() {
         id="scode"
         name="scode"
         required>
-      
+
       </td></tr>
 
     <tr><td class="p-2">

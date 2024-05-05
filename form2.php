@@ -1,4 +1,4 @@
-<?php 
+<?php
 $view_head_height = 190;
 
 ?>
@@ -10,7 +10,7 @@ $view_head_height = 190;
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
-  
+
 <?php require_once("iframe-css.php") ?>
 
 <script>
@@ -57,8 +57,8 @@ $(function() {
 </script>
 </head>
 <body>
-<h1 class="alert alert-primary"><a href=".">Form 未入力・数字チェック : jQuery( & JS )</a></h1>
 <div id="main">
+<h1 class="alert alert-primary"><a href=".">Form 未入力・数字チェック : jQuery( & JS )</a></h1>
 <form
   id="frm"
   method="post"
@@ -74,7 +74,7 @@ $(function() {
         type="text"
         id="scode"
         name="scode">
-      
+
       </td></tr>
 
     <tr><td class="p-2">

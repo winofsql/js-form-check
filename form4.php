@@ -1,4 +1,4 @@
-<?php 
+<?php
 $view_head_height = 200;
 
 ?>
@@ -10,7 +10,7 @@ $view_head_height = 200;
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
-  
+
 <?php require_once("iframe-css.php") ?>
 
 <script>
@@ -79,9 +79,9 @@ $(function() {
 </script>
 </head>
 <body>
+<div id="main">
 <h1 class="alert alert-primary"><a href=".">エラーを全て表示 : jQuery( & JS )</a></h1>
 <div id="emessage" class="m-3"></div>
-<div id="main">
 <form
   id="frm"
   method="post"
@@ -97,7 +97,7 @@ $(function() {
         type="text"
         id="scode"
         name="scode">
-      
+
       </td></tr>
 
     <tr><td class="p-2">

@@ -1,5 +1,5 @@
 <?php
-$view_head_height = 200;
+$view_head_height = 290;
 
 ?>
 <!DOCTYPE html>
